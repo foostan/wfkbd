@@ -1152,24 +1152,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 1300 1300 4000
 Wire Wire Line
-	2400 1300 2400 4000
-Wire Wire Line
-	3500 1300 3500 4000
-Wire Wire Line
-	4550 1300 4550 4000
-Wire Wire Line
-	5650 1300 5650 4000
-Wire Wire Line
-	6750 1300 6750 4000
-Wire Wire Line
-	1000 1900 8450 1900
-Wire Wire Line
-	1000 2500 8450 2500
-Wire Wire Line
-	1000 3100 8450 3100
-Wire Wire Line
-	1000 3700 8450 3700
-Wire Wire Line
 	1000 4300 8450 4300
 Connection ~ 1300 1600
 Connection ~ 1300 2200
@@ -1232,103 +1214,21 @@ Connection ~ 7850 2800
 Connection ~ 7850 3400
 Connection ~ 1900 1900
 Wire Wire Line
-	1150 4300 1150 4375
+	1000 3700 8450 3700
 Wire Wire Line
-	1150 4375 8450 4375
+	1000 3100 8450 3100
 Wire Wire Line
-	8450 4375 8450 4300
-Connection ~ 1150 4300
+	8450 2500 1000 2500
 Wire Wire Line
-	7350 4300 7350 4375
-Connection ~ 7350 4375
+	1000 1900 8450 1900
 Wire Wire Line
-	6250 4300 6250 4375
-Connection ~ 6250 4375
+	2400 4000 2400 1300
 Wire Wire Line
-	5150 4300 5150 4375
-Connection ~ 5150 4375
+	3500 4000 3500 1300
 Wire Wire Line
-	4100 4300 4100 4375
-Connection ~ 4100 4375
+	4550 4000 4550 1300
 Wire Wire Line
-	3000 4300 3000 4375
-Connection ~ 3000 4375
+	5650 4000 5650 1300
 Wire Wire Line
-	1900 4275 1900 4375
-Connection ~ 1900 4375
-Wire Wire Line
-	1150 3700 1150 3775
-Wire Wire Line
-	1150 3775 8450 3775
-Wire Wire Line
-	8450 3775 8450 3700
-Connection ~ 1150 3700
-Wire Wire Line
-	7350 3700 7350 3775
-Connection ~ 7350 3775
-Wire Wire Line
-	6250 3700 6250 3775
-Connection ~ 6250 3775
-Wire Wire Line
-	5150 3700 5150 3775
-Connection ~ 5150 3775
-Wire Wire Line
-	4100 3700 4100 3775
-Connection ~ 4100 3775
-Wire Wire Line
-	3000 3700 3000 3775
-Connection ~ 3000 3775
-Wire Wire Line
-	1900 3700 1900 3775
-Connection ~ 1900 3775
-Wire Wire Line
-	1300 1425 1225 1425
-Wire Wire Line
-	1225 1425 1225 4000
-Wire Wire Line
-	1225 4000 1300 4000
-Connection ~ 1300 1425
-Wire Wire Line
-	1300 1600 1225 1600
-Connection ~ 1225 1600
-Wire Wire Line
-	1300 2200 1225 2200
-Connection ~ 1225 2200
-Wire Wire Line
-	1300 2800 1225 2800
-Connection ~ 1225 2800
-Wire Wire Line
-	1300 3400 1225 3400
-Connection ~ 1225 3400
-Wire Wire Line
-	7850 1450 7775 1450
-Wire Wire Line
-	7775 1450 7775 4000
-Wire Wire Line
-	7775 4000 7850 4000
-Connection ~ 7850 1450
-Wire Wire Line
-	7850 1600 7775 1600
-Connection ~ 7775 1600
-Wire Wire Line
-	7850 2200 7775 2200
-Connection ~ 7775 2200
-Wire Wire Line
-	7850 2800 7775 2800
-Connection ~ 7775 2800
-Wire Wire Line
-	7850 3400 7775 3400
-Connection ~ 7775 3400
-$Comp
-L Conn_01x01 J?
-U 1 1 5ABB6DE7
-P 1350 4350
-F 0 "J?" H 1350 4450 50  0000 C CNN
-F 1 "Conn_01x01" H 1350 4250 50  0000 C CNN
-F 2 "" H 1350 4350 50  0001 C CNN
-F 3 "" H 1350 4350 50  0001 C CNN
-	1    1350 4350
-	1    0    0    -1  
-$EndComp
-Connection ~ 1150 4350
+	6750 4000 6750 1300
 $EndSCHEMATC
